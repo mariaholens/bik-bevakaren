@@ -501,15 +501,59 @@
         "time": "15:37",
         "situation": "EQ",
         "team": "MoDo"
+      },
+      "46:10|MoDo": {
+        "scorer": "Elton Hermansson (17)",
+        "assists": [
+          "Troy Bourke (70)",
+          "Adam Werner (35)"
+        ],
+        "time": "46:10",
+        "situation": "PP1",
+        "team": "MoDo"
+      },
+      "48:10|BIK": {
+        "scorer": "Jonathan Hermansson (19)",
+        "assists": [
+          "Eero Teräväinen (9)",
+          "Lucas Ölvestad (8)"
+        ],
+        "time": "48:10",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "54:21|BIK": {
+        "scorer": "Carson Golder (48)",
+        "assists": [
+          "Nicholas Pastujov (71)",
+          "Onni Käyhkö (78)"
+        ],
+        "time": "54:21",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "59:48|MoDo": {
+        "scorer": "Sebastian Ohlsson (36)",
+        "assists": [
+          "Oscar Pettersson (12)",
+          "Bryan Yoon (71)"
+        ],
+        "time": "59:48",
+        "situation": "EQ",
+        "team": "MoDo"
       }
     },
     "penalties": [
       "18:51|MoDo|Oskar Wahlberg (23)|2",
       "22:27|BIK|Jesper Emanuelsson (41)|2",
-      "26:36|BIK|Nicholas Pastujov (71)|2"
+      "26:36|BIK|Nicholas Pastujov (71)|2",
+      "29:37|MoDo|Oscar Pettersson (12)|2",
+      "45:39|BIK|Jonatan Harju (44)|2",
+      "54:31|BIK|Jesper Emanuelsson (41)|2",
+      "56:08|MoDo|Linus Nässén (18)|2"
     ],
     "started": true,
-    "final": false,
+    "final": true,
     "lineup_sent": true,
     "missing": {},
     "notified": {
@@ -532,10 +576,50 @@
         "time": "15:37",
         "situation": "EQ",
         "team": "MoDo"
+      },
+      "46:10|MoDo": {
+        "scorer": "Elton Hermansson (17)",
+        "assists": [
+          "Troy Bourke (70)",
+          "Adam Werner (35)"
+        ],
+        "time": "46:10",
+        "situation": "PP1",
+        "team": "MoDo"
+      },
+      "48:10|BIK": {
+        "scorer": "Jonathan Hermansson (19)",
+        "assists": [
+          "Eero Teräväinen (9)",
+          "Lucas Ölvestad (8)"
+        ],
+        "time": "48:10",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "54:21|BIK": {
+        "scorer": "Carson Golder (48)",
+        "assists": [
+          "Nicholas Pastujov (71)",
+          "Onni Käyhkö (78)"
+        ],
+        "time": "54:21",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "59:48|MoDo": {
+        "scorer": "Sebastian Ohlsson (36)",
+        "assists": [
+          "Oscar Pettersson (12)",
+          "Bryan Yoon (71)"
+        ],
+        "time": "59:48",
+        "situation": "EQ",
+        "team": "MoDo"
       }
     },
     "pending_fix": {},
     "period_started": 2,
-    "period_ended": 1
+    "period_ended": 2
   }
 }
