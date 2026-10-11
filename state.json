@@ -479,5 +479,63 @@
     "started": true,
     "final": false,
     "missing": {}
+  },
+  "1110379": {
+    "goals": {
+      "09:12|MoDo": {
+        "scorer": "August Berg (5)",
+        "assists": [
+          "Hugo Hallin (34)",
+          "Linus Nässén (18)"
+        ],
+        "time": "09:12",
+        "situation": "EQ",
+        "team": "MoDo"
+      },
+      "15:37|MoDo": {
+        "scorer": "Carl Mattsson (25)",
+        "assists": [
+          "Anton Lundmark (27)",
+          "Arvid Caderoth (20)"
+        ],
+        "time": "15:37",
+        "situation": "EQ",
+        "team": "MoDo"
+      }
+    },
+    "penalties": [
+      "18:51|MoDo|Oskar Wahlberg (23)|2",
+      "22:27|BIK|Jesper Emanuelsson (41)|2",
+      "26:36|BIK|Nicholas Pastujov (71)|2"
+    ],
+    "started": true,
+    "final": false,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "09:12|MoDo": {
+        "scorer": "August Berg (5)",
+        "assists": [
+          "Hugo Hallin (34)",
+          "Linus Nässén (18)"
+        ],
+        "time": "09:12",
+        "situation": "EQ",
+        "team": "MoDo"
+      },
+      "15:37|MoDo": {
+        "scorer": "Carl Mattsson (25)",
+        "assists": [
+          "Anton Lundmark (27)",
+          "Arvid Caderoth (20)"
+        ],
+        "time": "15:37",
+        "situation": "EQ",
+        "team": "MoDo"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 2,
+    "period_ended": 1
   }
 }
