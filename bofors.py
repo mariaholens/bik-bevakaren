@@ -488,7 +488,10 @@ def parse_lineup(page):
                 if ps:
                     rows.append([text(x) for x in ps])
             if label == "Goalies":
-                team["goalies"] = [x for r in rows for x in r]
+                allg = [x for r in rows for x in r]
+                # Startmålvakten är markerad med klassen "red" – sätt den först
+                starters = [text(x) for x in re.findall(r'class="lineUpPlayer[^"]*\bred\b[^"]*">(.*?)</div>', body, re.S)]
+                team["goalies"] = [g for g in starters if g in allg] + [g for g in allg if g not in starters]
             elif "Line" in label:
                 nr = int(label[0])
                 fw = [x for r in rows if len(r) == 3 for x in r]
