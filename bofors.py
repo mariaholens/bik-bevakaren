@@ -237,9 +237,24 @@ def period_sv(p):
     return p
 
 
+POWER_BREAK_RE = r"power\s*-?\s*break|tv[\s-]*(?:break|paus|time)|time\s*-?\s*out|reklam"
+PERIOD_END_RE = r"ended|intermission|periodpaus|period\s+break|avslutad|slut"
+
+
+def is_power_break(status):
+    """Powerbreak/TV-paus/timeout mitt i en period – inte periodslut."""
+    return bool(re.search(POWER_BREAK_RE, status or "", re.I))
+
+
+def is_period_end(status):
+    return bool(status) and not is_power_break(status) and \
+        bool(re.search(PERIOD_END_RE, status, re.I))
+
+
 def period_no(status):
-    """'2nd period' -> 2, 'Overtime' -> 4, annars None (även '1st period ended')."""
-    if re.search(r"ended|intermission|break|paus|slut", status or "", re.I):
+    """'2nd period' -> 2, 'Overtime' -> 4, annars None (även '1st period ended').
+    En powerbreak räknas som att perioden pågår."""
+    if is_period_end(status):
         return None
     m = re.match(r"(\d)(?:st|nd|rd|th)\s+period", status or "", re.I)
     if m:
@@ -961,9 +976,18 @@ class GameFollower:
 
             def end_period(n):
                 self.st["period_ended"] = n
+                self.st["period_ended_clock"] = info.get("clock")
                 if not silent:
                     self.send("Slut på %s ⏸" % period_name(n).lower(), score_line, None, 3)
 
+            # Självläkning: om vi felaktigt sagt att perioden är slut men klockan
+            # fortsätter gå i samma period, nollställ tyst.
+            ec = self.st.get("period_ended_clock")
+            if pn and pn == started and ended >= pn and ec is not None \
+                    and info.get("clock") is not None and info["clock"] > ec + 5:
+                self.st["period_ended"] = pn - 1
+                self.st.pop("period_ended_clock", None)
+                ended = pn - 1
             if pn:
                 if pn > started:
                     if started and ended < started:
@@ -975,8 +999,8 @@ class GameFollower:
                 if limit and info.get("clock") is not None and info["clock"] >= limit \
                         and self.st.get("period_ended", 0) < pn:
                     end_period(pn)
-            elif info.get("status") and started and ended < started:
-                # Status är något annat än en period (t.ex. periodpaus)
+            elif is_period_end(info.get("status")) and started and ended < started:
+                # Uttrycklig periodpaus (inte powerbreak/timeout)
                 end_period(started)
         if info["final"]:
             self.st["period_ended"] = max(self.st.get("period_started", 0), self.st.get("period_ended", 0))
