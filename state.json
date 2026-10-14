@@ -621,5 +621,85 @@
     "pending_fix": {},
     "period_started": 2,
     "period_ended": 2
+  },
+  "1110386": {
+    "goals": {
+      "12:19|BIK": {
+        "scorer": "Onni Käyhkö (78)",
+        "assists": [
+          "Tobias Sjökvist (27)",
+          "Jonatan Harju (44)"
+        ],
+        "time": "12:19",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "41:28|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Oscar Holmertz (21)",
+          "Gustaf Franzén (15)"
+        ],
+        "time": "41:28",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "45:22|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "45:22",
+        "situation": "PP1",
+        "team": "BIK"
+      }
+    },
+    "penalties": [
+      "14:59|BIK|Gustaf Thorell (12)|2",
+      "21:48|ÖST|Albert Sjöberg (23)|2",
+      "45:09|ÖST|Brett Budgell (10)|2",
+      "46:01|ÖST|Erik Flood (18)|2",
+      "54:44|ÖST|Olle Norberg (36)|2"
+    ],
+    "started": true,
+    "final": true,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "12:19|BIK": {
+        "scorer": "Onni Käyhkö (78)",
+        "assists": [
+          "Tobias Sjökvist (27)",
+          "Jonatan Harju (44)"
+        ],
+        "time": "12:19",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "41:28|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Oscar Holmertz (21)",
+          "Gustaf Franzén (15)"
+        ],
+        "time": "41:28",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "45:22|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "45:22",
+        "situation": "PP1",
+        "team": "BIK"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 3,
+    "period_ended": 3
   }
 }
