@@ -703,16 +703,158 @@
     "period_ended": 3
   },
   "1110398": {
-    "goals": {},
-    "penalties": [],
+    "goals": {
+      "14:08|BIK": {
+        "scorer": "Henrik Björklund (14)",
+        "assists": [
+          "Gustaf Thorell (12)",
+          "Carson Golder (48)"
+        ],
+        "time": "14:08",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "23:15|VIS": {
+        "scorer": "Elias Lindström (21)",
+        "assists": [
+          "Karl Johansson (57)",
+          "Andreas Dahl (16)"
+        ],
+        "time": "23:15",
+        "situation": "PP1",
+        "team": "VIS"
+      },
+      "25:19|BIK": {
+        "scorer": "Travis Treloar (10)",
+        "assists": [],
+        "time": "25:19",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "45:07|VIS": {
+        "scorer": "Eric Norin (47)",
+        "assists": [
+          "Elias Lindström (21)",
+          "Ryan Gagnier (74)"
+        ],
+        "time": "45:07",
+        "situation": "PP1",
+        "team": "VIS"
+      },
+      "57:16|VIS": {
+        "scorer": "Juho Liuksiala (23)",
+        "assists": [
+          "John Dahlström (18)",
+          "Andreas Thelander (40)"
+        ],
+        "time": "57:16",
+        "situation": "EQ",
+        "team": "VIS"
+      },
+      "58:04|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Lucas Ölvestad (8)",
+          "Harrison Blaisdell (17)"
+        ],
+        "time": "58:04",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "62:58|VIS": {
+        "scorer": "Ryan Gagnier (74)",
+        "assists": [],
+        "time": "62:58",
+        "situation": "EQ",
+        "team": "VIS"
+      }
+    },
+    "penalties": [
+      "12:08|VIS|Janne Peltonen (6)|2",
+      "21:17|BIK|Harrison Blaisdell (17)|2",
+      "39:21|VIS|Lucas Jidenius (28)|2",
+      "39:21|BIK|Oscar Lawner (29)|2",
+      "42:35|VIS|Janne Peltonen (6)|2",
+      "42:47|BIK|Jesper Emanuelsson (41)|2",
+      "42:35|BIK|Jesper Emanuelsson (41)|2",
+      "44:00|BIK|Carson Golder (48)|2",
+      "45:07|BIK|Carson Golder (48)|2"
+    ],
     "started": true,
-    "final": false,
+    "final": true,
     "lineup_sent": true,
     "missing": {},
-    "notified": {},
+    "notified": {
+      "14:08|BIK": {
+        "scorer": "Henrik Björklund (14)",
+        "assists": [
+          "Gustaf Thorell (12)",
+          "Carson Golder (48)"
+        ],
+        "time": "14:08",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "23:15|VIS": {
+        "scorer": "Elias Lindström (21)",
+        "assists": [
+          "Karl Johansson (57)",
+          "Andreas Dahl (16)"
+        ],
+        "time": "23:15",
+        "situation": "PP1",
+        "team": "VIS"
+      },
+      "25:19|BIK": {
+        "scorer": "Travis Treloar (10)",
+        "assists": [],
+        "time": "25:19",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "45:07|VIS": {
+        "scorer": "Eric Norin (47)",
+        "assists": [
+          "Elias Lindström (21)",
+          "Ryan Gagnier (74)"
+        ],
+        "time": "45:07",
+        "situation": "PP1",
+        "team": "VIS"
+      },
+      "57:16|VIS": {
+        "scorer": "Juho Liuksiala (23)",
+        "assists": [
+          "John Dahlström (18)",
+          "Andreas Thelander (40)"
+        ],
+        "time": "57:16",
+        "situation": "EQ",
+        "team": "VIS"
+      },
+      "58:04|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Lucas Ölvestad (8)",
+          "Harrison Blaisdell (17)"
+        ],
+        "time": "58:04",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "62:58|VIS": {
+        "scorer": "Ryan Gagnier (74)",
+        "assists": [],
+        "time": "62:58",
+        "situation": "EQ",
+        "team": "VIS"
+      }
+    },
     "pending_fix": {},
-    "period_started": 1,
-    "period_ended": 1,
-    "period_ended_clock": 1200
+    "period_started": 4,
+    "period_ended": 4,
+    "last_clock": 178,
+    "last_clock_period": 4,
+    "period_ended_clock": null
   }
 }
