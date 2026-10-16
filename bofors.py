@@ -965,7 +965,8 @@ class GameFollower:
             self.send("Rättelse: målet till %s ✏️" % sc, "\n".join(lines), None, 3)
 
         # Periodslut och periodstart
-        if self.cfg.get("notify_periods", True) and not info["final"]:
+        # Ingen periodlogik förrän matchen faktiskt har börjat (första händelsen finns)
+        if self.cfg.get("notify_periods", True) and not info["final"] and self.st.get("started"):
             pn = period_no(info.get("status"))
             started = self.st.get("period_started", 0)
             ended = self.st.get("period_ended", 0)
@@ -984,7 +985,7 @@ class GameFollower:
             # fortsätter gå i samma period, nollställ tyst.
             ec = self.st.get("period_ended_clock")
             if pn and pn == started and ended >= pn and ec is not None \
-                    and info.get("clock") is not None and info["clock"] > ec + 5:
+                    and info.get("clock") is not None and abs(info["clock"] - ec) > 5:
                 self.st["period_ended"] = pn - 1
                 self.st.pop("period_ended_clock", None)
                 ended = pn - 1
@@ -996,9 +997,15 @@ class GameFollower:
                     if pn >= 2 and not silent:
                         self.send("%s igång! 🏒" % period_name(pn), score_line, None, 3)
                 limit = {1: 1200, 2: 2400, 3: 3600}.get(pn)
-                if limit and info.get("clock") is not None and info["clock"] >= limit \
+                clk = info.get("clock")
+                # Klockan måste ha setts gå under gränsen i den här perioden först –
+                # annars kan en klocka som visar 20:00 före nedsläpp tolkas som periodslut.
+                prev = self.st.get("last_clock") if self.st.get("last_clock_period") == pn else None
+                if limit and clk is not None and clk >= limit and prev is not None and prev < limit \
                         and self.st.get("period_ended", 0) < pn:
                     end_period(pn)
+                if clk is not None:
+                    self.st["last_clock"], self.st["last_clock_period"] = clk, pn
             elif is_period_end(info.get("status")) and started and ended < started:
                 # Uttrycklig periodpaus (inte powerbreak/timeout)
                 end_period(started)
