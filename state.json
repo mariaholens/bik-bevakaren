@@ -701,5 +701,18 @@
     "pending_fix": {},
     "period_started": 3,
     "period_ended": 3
+  },
+  "1110398": {
+    "goals": {},
+    "penalties": [],
+    "started": true,
+    "final": false,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {},
+    "pending_fix": {},
+    "period_started": 1,
+    "period_ended": 1,
+    "period_ended_clock": 1200
   }
 }
