@@ -856,5 +856,91 @@
     "last_clock": 178,
     "last_clock_period": 4,
     "period_ended_clock": null
+  },
+  "1110401": {
+    "goals": {
+      "25:10|SSK": {
+        "scorer": "Hampus Harlestam (9)",
+        "assists": [
+          "Jonatan Lundgren (5)",
+          "Niklas Arell (44)"
+        ],
+        "time": "25:10",
+        "situation": "EQ",
+        "team": "SSK"
+      },
+      "35:35|SSK": {
+        "scorer": "Joni Ikonen (16)",
+        "assists": [
+          "Carter Souch (18)",
+          "Daniel Norbe (27)"
+        ],
+        "time": "35:35",
+        "situation": "PP1",
+        "team": "SSK"
+      },
+      "57:54|SSK": {
+        "scorer": "Adam Hesselvall (28)",
+        "assists": [],
+        "time": "57:54",
+        "situation": "EQ",
+        "team": "SSK"
+      }
+    },
+    "penalties": [
+      "09:57|BIK|Harrison Blaisdell (17)|2",
+      "16:04|BIK|Carson Golder (48)|20",
+      "16:04|BIK|Carson Golder (48)|5",
+      "16:29|SSK|Gustav Salmi Lilja (17)|2",
+      "16:46|SSK|Carter Souch (18)|2",
+      "16:04|BIK|Carson Golder (48)|2",
+      "16:04|SSK|Gustav Salmi Lilja (17)|2",
+      "31:16|BIK|Nicholas Pastujov (71)|2",
+      "33:18|BIK|Nicholas Pastujov (71)|2",
+      "35:04|BIK|Wilhelm Westlund (20)|2",
+      "35:50|BIK|Lucas Ölvestad (8)|2",
+      "40:31|BIK|Onni Käyhkö (78)|2",
+      "44:26|SSK|Andrew Vanderbeck (91)|2",
+      "52:23|SSK|Daniel Norbe (27)|2"
+    ],
+    "started": true,
+    "final": true,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "25:10|SSK": {
+        "scorer": "Hampus Harlestam (9)",
+        "assists": [
+          "Jonatan Lundgren (5)",
+          "Niklas Arell (44)"
+        ],
+        "time": "25:10",
+        "situation": "EQ",
+        "team": "SSK"
+      },
+      "35:35|SSK": {
+        "scorer": "Joni Ikonen (16)",
+        "assists": [
+          "Carter Souch (18)",
+          "Daniel Norbe (27)"
+        ],
+        "time": "35:35",
+        "situation": "PP1",
+        "team": "SSK"
+      },
+      "57:54|SSK": {
+        "scorer": "Adam Hesselvall (28)",
+        "assists": [],
+        "time": "57:54",
+        "situation": "EQ",
+        "team": "SSK"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 3,
+    "last_clock": 1187,
+    "last_clock_period": 3,
+    "period_ended": 3,
+    "period_ended_clock": null
   }
 }
