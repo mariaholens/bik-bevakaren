@@ -942,5 +942,65 @@
     "last_clock_period": 3,
     "period_ended": 3,
     "period_ended_clock": null
+  },
+  "1110406": {
+    "goals": {
+      "13:14|BIK": {
+        "scorer": "Lucas Ölvestad (8)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Wilhelm Westlund (20)"
+        ],
+        "time": "13:14",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "43:34|VIS": {
+        "scorer": "Juho Liuksiala (23)",
+        "assists": [
+          "Karl Påhlsson (31)",
+          "Ryan Gagnier (74)"
+        ],
+        "time": "43:34",
+        "situation": "EQ",
+        "team": "VIS"
+      }
+    },
+    "penalties": [
+      "01:25|BIK|Nicholas Pastujov (71)|2",
+      "06:12|BIK|Harrison Blaisdell (17)|2",
+      "25:15|BIK|Team penalty|2",
+      "25:21|VIS|Elias Lindström (21)|2"
+    ],
+    "started": true,
+    "final": false,
+    "missing": {},
+    "notified": {
+      "13:14|BIK": {
+        "scorer": "Lucas Ölvestad (8)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Wilhelm Westlund (20)"
+        ],
+        "time": "13:14",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "43:34|VIS": {
+        "scorer": "Juho Liuksiala (23)",
+        "assists": [],
+        "time": "43:34",
+        "situation": "EQ",
+        "team": "VIS"
+      }
+    },
+    "pending_fix": {
+      "43:34|VIS": 1792785274.3265195
+    },
+    "period_started": 3,
+    "last_clock": 429,
+    "last_clock_period": 3,
+    "period_ended": 2,
+    "period_ended_clock": null
   }
 }
