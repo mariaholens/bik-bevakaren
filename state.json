@@ -1164,5 +1164,98 @@
     "last_clock_period": 3,
     "period_ended": 2,
     "period_ended_clock": null
+  },
+  "1110421": {
+    "goals": {
+      "16:57|NYB": {
+        "scorer": "Sander Vold Engebråten (7)",
+        "assists": [
+          "Gabriel Säll (95)",
+          "Joel Kant (24)"
+        ],
+        "time": "16:57",
+        "situation": "EQ",
+        "team": "NYB"
+      },
+      "19:26|BIK": {
+        "scorer": "Eero Teräväinen (9)",
+        "assists": [
+          "Oscar Lawner (29)",
+          "Carson Golder (48)"
+        ],
+        "time": "19:26",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "30:40|BIK": {
+        "scorer": "Eero Teräväinen (9)",
+        "assists": [
+          "Henrik Björklund (14)",
+          "Carson Golder (48)"
+        ],
+        "time": "30:40",
+        "situation": "PP1",
+        "team": "BIK"
+      }
+    },
+    "penalties": [
+      "11:20|NYB|Alexander Molldén (67)|2",
+      "13:15|BIK|Nicholas Pastujov (71)|2",
+      "13:15|BIK|Travis Treloar (10)|2",
+      "13:15|NYB|Fredrik Granberg (5)|2",
+      "13:15|NYB|Elias Stenman (19)|2",
+      "15:04|BIK|Rikard Olsén (90)|2",
+      "15:04|BIK|Jesper Emanuelsson (41)|5",
+      "15:04|NYB|Melvin Wersäll (11)|2",
+      "15:04|NYB|Tim Lindfors (88)|5",
+      "19:08|NYB|Måns Krämer (8)|2",
+      "27:29|BIK|Oscar Lawner (29)|2",
+      "29:58|NYB|Elias Stenman (19)|2",
+      "31:08|NYB|Oscar Nordin (34)|2",
+      "38:19|BIK|Tobias Sjökvist (27)|2",
+      "39:38|BIK|Alexander Leandersson (4)|2"
+    ],
+    "started": true,
+    "final": false,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "16:57|NYB": {
+        "scorer": "Sander Vold Engebråten (7)",
+        "assists": [
+          "Gabriel Säll (95)",
+          "Joel Kant (24)"
+        ],
+        "time": "16:57",
+        "situation": "EQ",
+        "team": "NYB"
+      },
+      "19:26|BIK": {
+        "scorer": "Eero Teräväinen (9)",
+        "assists": [
+          "Oscar Lawner (29)",
+          "Carson Golder (48)"
+        ],
+        "time": "19:26",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "30:40|BIK": {
+        "scorer": "Eero Teräväinen (9)",
+        "assists": [
+          "Henrik Björklund (14)",
+          "Carson Golder (48)"
+        ],
+        "time": "30:40",
+        "situation": "PP1",
+        "team": "BIK"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 3,
+    "last_clock": 831,
+    "last_clock_period": 3,
+    "period_ended": 2,
+    "period_ended_clock": null
   }
 }
