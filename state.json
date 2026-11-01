@@ -1257,5 +1257,204 @@
     "last_clock_period": 3,
     "period_ended": 2,
     "period_ended_clock": null
+  },
+  "1110429": {
+    "goals": {
+      "19:23|BIK": {
+        "scorer": "Lucas Ölvestad (8)",
+        "assists": [
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "19:23",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "28:17|ÖST": {
+        "scorer": "Maksim Semjonov (25)",
+        "assists": [
+          "Erik Flood (18)",
+          "Alexander Ljungkrantz (14)"
+        ],
+        "time": "28:17",
+        "situation": "PP1",
+        "team": "ÖST"
+      },
+      "30:43|BIK": {
+        "scorer": "Jonatan Harju (44)",
+        "assists": [
+          "Carson Golder (48)",
+          "Rikard Olsén (90)"
+        ],
+        "time": "30:43",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "36:13|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Lucas Ölvestad (8)",
+          "Gustaf Franzén (15)"
+        ],
+        "time": "36:13",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "40:45|ÖST": {
+        "scorer": "Filip Hesselvall (70)",
+        "assists": [
+          "Lukas Sagranden (24)"
+        ],
+        "time": "40:45",
+        "situation": "EQ",
+        "team": "ÖST"
+      },
+      "41:37|BIK": {
+        "scorer": "Wilhelm Westlund (20)",
+        "assists": [
+          "Henrik Björklund (14)",
+          "Onni Käyhkö (78)"
+        ],
+        "time": "41:37",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "48:16|ÖST": {
+        "scorer": "Lukas Sagranden (24)",
+        "assists": [
+          "Kevin Arvidsson (5)",
+          "Leo Sundqvist (27)"
+        ],
+        "time": "48:16",
+        "situation": "EQ",
+        "team": "ÖST"
+      },
+      "58:48|ÖST": {
+        "scorer": "Maksim Semjonov (25)",
+        "assists": [
+          "Erik Flood (18)",
+          "William Proos (91)"
+        ],
+        "time": "58:48",
+        "situation": "EQ",
+        "team": "ÖST"
+      },
+      "61:34|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Oscar Lawner (29)"
+        ],
+        "time": "61:34",
+        "situation": "EQ",
+        "team": "BIK"
+      }
+    },
+    "penalties": [
+      "08:08|ÖST|Daniel Öhrn (63)|2",
+      "11:07|BIK|Jonatan Harju (44)|2",
+      "19:18|ÖST|William Proos (91)|2",
+      "23:10|ÖST|Albert Sjöberg (23)|2",
+      "26:52|BIK|Viktor Lang (22)|2",
+      "26:52|BIK|Viktor Lang (22)|10",
+      "54:31|BIK|Oscar Lawner (29)|2"
+    ],
+    "started": true,
+    "final": true,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "19:23|BIK": {
+        "scorer": "Lucas Ölvestad (8)",
+        "assists": [
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "19:23",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "28:17|ÖST": {
+        "scorer": "Maksim Semjonov (25)",
+        "assists": [
+          "Erik Flood (18)",
+          "Alexander Ljungkrantz (14)"
+        ],
+        "time": "28:17",
+        "situation": "PP1",
+        "team": "ÖST"
+      },
+      "30:43|BIK": {
+        "scorer": "Jonatan Harju (44)",
+        "assists": [
+          "Carson Golder (48)",
+          "Rikard Olsén (90)"
+        ],
+        "time": "30:43",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "36:13|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Lucas Ölvestad (8)",
+          "Gustaf Franzén (15)"
+        ],
+        "time": "36:13",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "40:45|ÖST": {
+        "scorer": "Filip Hesselvall (70)",
+        "assists": [
+          "Lukas Sagranden (24)"
+        ],
+        "time": "40:45",
+        "situation": "EQ",
+        "team": "ÖST"
+      },
+      "41:37|BIK": {
+        "scorer": "Wilhelm Westlund (20)",
+        "assists": [
+          "Henrik Björklund (14)",
+          "Onni Käyhkö (78)"
+        ],
+        "time": "41:37",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "48:16|ÖST": {
+        "scorer": "Lukas Sagranden (24)",
+        "assists": [
+          "Kevin Arvidsson (5)",
+          "Leo Sundqvist (27)"
+        ],
+        "time": "48:16",
+        "situation": "EQ",
+        "team": "ÖST"
+      },
+      "58:48|ÖST": {
+        "scorer": "Maksim Semjonov (25)",
+        "assists": [
+          "Erik Flood (18)",
+          "William Proos (91)"
+        ],
+        "time": "58:48",
+        "situation": "EQ",
+        "team": "ÖST"
+      },
+      "61:34|BIK": {
+        "scorer": "Jesper Emanuelsson (41)",
+        "assists": [
+          "Oscar Lawner (29)"
+        ],
+        "time": "61:34",
+        "situation": "EQ",
+        "team": "BIK"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 4,
+    "last_clock": 88,
+    "last_clock_period": 4,
+    "period_ended": 4,
+    "period_ended_clock": null
   }
 }
