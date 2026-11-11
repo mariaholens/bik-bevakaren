@@ -1456,5 +1456,129 @@
     "last_clock_period": 4,
     "period_ended": 4,
     "period_ended_clock": null
+  },
+  "1110438": {
+    "goals": {
+      "26:36|BIK": {
+        "scorer": "Lucas Ölvestad (8)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Jesper Emanuelsson (41)"
+        ],
+        "time": "26:36",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "31:16|BIK": {
+        "scorer": "Rikard Olsén (90)",
+        "assists": [
+          "Tobias Sjökvist (27)"
+        ],
+        "time": "31:16",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "33:35|BIK": {
+        "scorer": "Gustaf Franzén (15)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Henrik Björklund (14)"
+        ],
+        "time": "33:35",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "45:30|MIK": {
+        "scorer": "Victor Engebråten Kopperstad (6)",
+        "assists": [
+          "Svante Sjödin (46)",
+          "Jakob Norén (4)"
+        ],
+        "time": "45:30",
+        "situation": "SH1",
+        "team": "MIK"
+      },
+      "49:48|BIK": {
+        "scorer": "Wilhelm Westlund (20)",
+        "assists": [
+          "Carson Golder (48)",
+          "Gustaf Franzén (15)"
+        ],
+        "time": "49:48",
+        "situation": "EQ",
+        "team": "BIK"
+      }
+    },
+    "penalties": [
+      "21:25|BIK|Tobias Sjökvist (27)|2",
+      "23:49|BIK|Tobias Sjökvist (27)|2",
+      "26:19|MIK|Georg Weigelt (20)|2",
+      "32:17|MIK|Jakob Norén (4)|2",
+      "34:25|BIK|Team penalty|2",
+      "37:25|MIK|Patrick Røbru Elvseen (26)|2",
+      "44:09|MIK|Olle Carlsson (28)|2",
+      "55:56|MIK|Marcus Hellgren Smed (31)|2"
+    ],
+    "started": true,
+    "final": true,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "26:36|BIK": {
+        "scorer": "Lucas Ölvestad (8)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Jesper Emanuelsson (41)"
+        ],
+        "time": "26:36",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "31:16|BIK": {
+        "scorer": "Rikard Olsén (90)",
+        "assists": [
+          "Tobias Sjökvist (27)"
+        ],
+        "time": "31:16",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "33:35|BIK": {
+        "scorer": "Gustaf Franzén (15)",
+        "assists": [
+          "Travis Treloar (10)",
+          "Henrik Björklund (14)"
+        ],
+        "time": "33:35",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "45:30|MIK": {
+        "scorer": "Victor Engebråten Kopperstad (6)",
+        "assists": [
+          "Svante Sjödin (46)",
+          "Jakob Norén (4)"
+        ],
+        "time": "45:30",
+        "situation": "SH1",
+        "team": "MIK"
+      },
+      "49:48|BIK": {
+        "scorer": "Wilhelm Westlund (20)",
+        "assists": [
+          "Carson Golder (48)",
+          "Gustaf Franzén (15)"
+        ],
+        "time": "49:48",
+        "situation": "EQ",
+        "team": "BIK"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 3,
+    "last_clock": 1151,
+    "last_clock_period": 3,
+    "period_ended": 3,
+    "period_ended_clock": null
   }
 }
