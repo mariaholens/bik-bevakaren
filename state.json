@@ -1580,5 +1580,126 @@
     "last_clock_period": 3,
     "period_ended": 3,
     "period_ended_clock": null
+  },
+  "1110442": {
+    "goals": {
+      "06:06|BIK": {
+        "scorer": "Nicholas Pastujov (71)",
+        "assists": [
+          "Harrison Blaisdell (17)",
+          "Travis Treloar (10)"
+        ],
+        "time": "06:06",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "11:24|AIK": {
+        "scorer": "Tyler Vesel (23)",
+        "assists": [
+          "Daniel Ljungman (29)",
+          "William Pethrus (33)"
+        ],
+        "time": "11:24",
+        "situation": "PP1",
+        "team": "AIK"
+      },
+      "41:23|AIK": {
+        "scorer": "Christoffer Björk (27)",
+        "assists": [
+          "Theoklis Theocharidis (98)"
+        ],
+        "time": "41:23",
+        "situation": "EQ",
+        "team": "AIK"
+      },
+      "59:55|BIK": {
+        "scorer": "Gustaf Franzén (15)",
+        "assists": [
+          "Henrik Björklund (14)",
+          "Eero Teräväinen (9)"
+        ],
+        "time": "59:55",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "63:46|BIK": {
+        "scorer": "Onni Käyhkö (78)",
+        "assists": [
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "63:46",
+        "situation": "EQ",
+        "team": "BIK"
+      }
+    },
+    "penalties": [
+      "10:41|BIK|Gustaf Franzén (15)|2",
+      "11:39|AIK|Oskar Magnusson (58)|2",
+      "19:49|AIK|Olli Vainio (6)|2",
+      "26:02|BIK|Jesper Emanuelsson (41)|2",
+      "38:00|BIK|Harrison Blaisdell (17)|10",
+      "38:00|BIK|Harrison Blaisdell (17)|2",
+      "46:09|AIK|Anders Grönlund (15)|2"
+    ],
+    "started": true,
+    "final": true,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "06:06|BIK": {
+        "scorer": "Nicholas Pastujov (71)",
+        "assists": [
+          "Harrison Blaisdell (17)",
+          "Travis Treloar (10)"
+        ],
+        "time": "06:06",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "11:24|AIK": {
+        "scorer": "Tyler Vesel (23)",
+        "assists": [
+          "Daniel Ljungman (29)",
+          "William Pethrus (33)"
+        ],
+        "time": "11:24",
+        "situation": "PP1",
+        "team": "AIK"
+      },
+      "41:23|AIK": {
+        "scorer": "Christoffer Björk (27)",
+        "assists": [
+          "Theoklis Theocharidis (98)"
+        ],
+        "time": "41:23",
+        "situation": "EQ",
+        "team": "AIK"
+      },
+      "59:55|BIK": {
+        "scorer": "Gustaf Franzén (15)",
+        "assists": [
+          "Henrik Björklund (14)",
+          "Eero Teräväinen (9)"
+        ],
+        "time": "59:55",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "63:46|BIK": {
+        "scorer": "Onni Käyhkö (78)",
+        "assists": [
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "63:46",
+        "situation": "EQ",
+        "team": "BIK"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 4,
+    "last_clock": 209,
+    "last_clock_period": 4,
+    "period_ended": 4,
+    "period_ended_clock": null
   }
 }
