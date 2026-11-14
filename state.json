@@ -1701,5 +1701,123 @@
     "last_clock_period": 4,
     "period_ended": 4,
     "period_ended_clock": null
+  },
+  "1110449": {
+    "goals": {
+      "17:37|AIS": {
+        "scorer": "Charlie Forslund (10)",
+        "assists": [
+          "Lukas Smith (29)"
+        ],
+        "time": "17:37",
+        "situation": "EQ",
+        "team": "AIS"
+      },
+      "29:04|BIK": {
+        "scorer": "Travis Treloar (10)",
+        "assists": [
+          "Wilhelm Westlund (20)",
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "29:04",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "36:03|AIS": {
+        "scorer": "Karl Sterner (34)",
+        "assists": [
+          "Lukas Smith (29)",
+          "Oskar Asplund (33)"
+        ],
+        "time": "36:03",
+        "situation": "PP1",
+        "team": "AIS"
+      },
+      "59:13|BIK": {
+        "scorer": "Nicholas Pastujov (71)",
+        "assists": [
+          "Jesper Emanuelsson (41)",
+          "Lucas Ölvestad (8)"
+        ],
+        "time": "59:13",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "62:45|AIS": {
+        "scorer": "Samuel Salonen (92)",
+        "assists": [
+          "Marwin Jarbsjö (96)"
+        ],
+        "time": "62:45",
+        "situation": "EQ",
+        "team": "AIS"
+      }
+    },
+    "penalties": [
+      "35:23|BIK|Wilhelm Westlund (20)|2",
+      "41:29|BIK|Tobias Sjökvist (27)|2",
+      "53:21|AIS|William Pecirep (23)|2",
+      "57:51|AIS|Edvin Hammarlund (3)|2"
+    ],
+    "started": true,
+    "final": true,
+    "lineup_sent": true,
+    "missing": {},
+    "notified": {
+      "17:36|AIS": {
+        "scorer": "Charlie Forslund (10)",
+        "assists": [
+          "Lukas Smith (29)"
+        ],
+        "time": "17:36",
+        "situation": "EQ",
+        "team": "AIS"
+      },
+      "29:04|BIK": {
+        "scorer": "Travis Treloar (10)",
+        "assists": [
+          "Wilhelm Westlund (20)",
+          "Nicholas Pastujov (71)"
+        ],
+        "time": "29:04",
+        "situation": "EQ",
+        "team": "BIK"
+      },
+      "36:03|AIS": {
+        "scorer": "Karl Sterner (34)",
+        "assists": [
+          "Lukas Smith (29)",
+          "Oskar Asplund (33)"
+        ],
+        "time": "36:03",
+        "situation": "PP1",
+        "team": "AIS"
+      },
+      "59:12|BIK": {
+        "scorer": "Nicholas Pastujov (71)",
+        "assists": [
+          "Jesper Emanuelsson (41)",
+          "Lucas Ölvestad (8)"
+        ],
+        "time": "59:12",
+        "situation": "PP1",
+        "team": "BIK"
+      },
+      "62:45|AIS": {
+        "scorer": "Samuel Salonen (92)",
+        "assists": [
+          "Marwin Jarbsjö (96)"
+        ],
+        "time": "62:45",
+        "situation": "EQ",
+        "team": "AIS"
+      }
+    },
+    "pending_fix": {},
+    "period_started": 4,
+    "last_clock": 165,
+    "last_clock_period": 4,
+    "period_ended": 4,
+    "period_ended_clock": null
   }
 }
